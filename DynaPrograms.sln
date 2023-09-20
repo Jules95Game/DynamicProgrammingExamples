@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memoized(Reqursive)", "Memoized(Reqursive)", "{DF287A04-F134-4D2B-876A-A6048E653571}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynaPrograms.GridTraveler", "DynaPrograms.GridTraveler\DynaPrograms.GridTraveler.csproj", "{2B7B77E7-7470-488F-A759-AF1E2AC30173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +24,17 @@ Global
 		{4871B693-4907-4438-9F30-1489E14BDC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4871B693-4907-4438-9F30-1489E14BDC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4871B693-4907-4438-9F30-1489E14BDC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7B77E7-7470-488F-A759-AF1E2AC30173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7B77E7-7470-488F-A759-AF1E2AC30173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7B77E7-7470-488F-A759-AF1E2AC30173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7B77E7-7470-488F-A759-AF1E2AC30173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4871B693-4907-4438-9F30-1489E14BDC7C} = {DF287A04-F134-4D2B-876A-A6048E653571}
+		{2B7B77E7-7470-488F-A759-AF1E2AC30173} = {DF287A04-F134-4D2B-876A-A6048E653571}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C72C235-D105-4AF0-9C9E-68E1429A889E}
