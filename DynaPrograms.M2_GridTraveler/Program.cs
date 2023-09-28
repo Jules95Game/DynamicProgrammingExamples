@@ -1,4 +1,4 @@
-﻿namespace DynaPrograms.GridTraveler;
+﻿namespace DynaPrograms.M2_GridTraveler;
 
 internal class Program
 {
@@ -32,10 +32,10 @@ internal class Program
     // Unoptimized
     // O(2^(n+m)) Time
     // O(n+m) Space
-    private static long BadGridTraveler(int m, int n)
+    private static long BruteGridTraveler(int m, int n)
     {
         if (m == 1 && n == 1) return 1;
         if (m == 0 || n == 0) return 0;
-        return BadGridTraveler(m - 1, n) + BadGridTraveler(m, n - 1);
+        return BruteGridTraveler(m - 1, n) + BruteGridTraveler(m, n - 1);
     }
 }

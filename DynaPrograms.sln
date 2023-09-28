@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.Fibonacci", "DynaPrograms.Fibonacci\DynaPrograms.Fibonacci.csproj", "{4871B693-4907-4438-9F30-1489E14BDC7C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FE3C61E-ACCE-4A5E-B359-2F47900FFBAC}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
@@ -12,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memoized(Reqursive)", "Memoized(Reqursive)", "{DF287A04-F134-4D2B-876A-A6048E653571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynaPrograms.GridTraveler", "DynaPrograms.GridTraveler\DynaPrograms.GridTraveler.csproj", "{2B7B77E7-7470-488F-A759-AF1E2AC30173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.M1_Fibonacci", "DynaPrograms.M1_Fibonacci\DynaPrograms.M1_Fibonacci.csproj", "{A512DA07-B351-4AD3-BF4B-A3605D24DD25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.M2_GridTraveler", "DynaPrograms.M2_GridTraveler\DynaPrograms.M2_GridTraveler.csproj", "{C1C8F0D0-A7CE-47C9-979C-C624C9A66836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,21 +20,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4871B693-4907-4438-9F30-1489E14BDC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4871B693-4907-4438-9F30-1489E14BDC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4871B693-4907-4438-9F30-1489E14BDC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4871B693-4907-4438-9F30-1489E14BDC7C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B7B77E7-7470-488F-A759-AF1E2AC30173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B7B77E7-7470-488F-A759-AF1E2AC30173}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B7B77E7-7470-488F-A759-AF1E2AC30173}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B7B77E7-7470-488F-A759-AF1E2AC30173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A512DA07-B351-4AD3-BF4B-A3605D24DD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A512DA07-B351-4AD3-BF4B-A3605D24DD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A512DA07-B351-4AD3-BF4B-A3605D24DD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A512DA07-B351-4AD3-BF4B-A3605D24DD25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C8F0D0-A7CE-47C9-979C-C624C9A66836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C8F0D0-A7CE-47C9-979C-C624C9A66836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C8F0D0-A7CE-47C9-979C-C624C9A66836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C8F0D0-A7CE-47C9-979C-C624C9A66836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4871B693-4907-4438-9F30-1489E14BDC7C} = {DF287A04-F134-4D2B-876A-A6048E653571}
-		{2B7B77E7-7470-488F-A759-AF1E2AC30173} = {DF287A04-F134-4D2B-876A-A6048E653571}
+		{A512DA07-B351-4AD3-BF4B-A3605D24DD25} = {DF287A04-F134-4D2B-876A-A6048E653571}
+		{C1C8F0D0-A7CE-47C9-979C-C624C9A66836} = {DF287A04-F134-4D2B-876A-A6048E653571}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C72C235-D105-4AF0-9C9E-68E1429A889E}

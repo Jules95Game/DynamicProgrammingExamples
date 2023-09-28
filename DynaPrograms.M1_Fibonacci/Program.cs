@@ -1,4 +1,4 @@
-﻿namespace DynaPrograms.Fibonacci;
+﻿namespace DynaPrograms.M1_Fibonacci;
 
 internal class Program
 {
@@ -30,9 +30,9 @@ internal class Program
     // Unoptimized
     // O(2^n) Time
     // O(n) Space
-    private static long BadFib(int n)
+    private static long BruteFib(int n)
     {
         if (n <= 2) return 1;
-        return BadFib(n - 1) + BadFib(n - 2);
+        return BruteFib(n - 1) + BruteFib(n - 2);
     }
 }
