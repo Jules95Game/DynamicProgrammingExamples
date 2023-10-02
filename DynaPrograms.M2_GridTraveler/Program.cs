@@ -6,11 +6,11 @@ internal class Program
     {
         Console.Write("Press enter to start.");
         Console.ReadLine();
-        Console.WriteLine(GridTraveler(1, 1));
-        Console.WriteLine(GridTraveler(2, 3));
-        Console.WriteLine(GridTraveler(3, 2));
-        Console.WriteLine(GridTraveler(3, 3));
-        Console.WriteLine(GridTraveler(18, 18));
+        Console.WriteLine(GridTraveler(1, 1));   // 1
+        Console.WriteLine(GridTraveler(2, 3));   // 3
+        Console.WriteLine(GridTraveler(3, 2));   // 3
+        Console.WriteLine(GridTraveler(3, 3));   // 6
+        Console.WriteLine(GridTraveler(18, 18)); // 2333606220
         Console.Write("Done!");
         Console.ReadLine();
     }
