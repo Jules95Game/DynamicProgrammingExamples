@@ -14,7 +14,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.M1_Fibonacci",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.M2_GridTraveler", "DynaPrograms.M2_GridTraveler\DynaPrograms.M2_GridTraveler.csproj", "{C1C8F0D0-A7CE-47C9-979C-C624C9A66836}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynaPrograms.M3_CanSum", "DynaPrograms.M3_CanSum\DynaPrograms.M3_CanSum.csproj", "{0C5EE81C-DECB-4A94-91BE-F546E23E4C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.M3_CanSum", "DynaPrograms.M3_CanSum\DynaPrograms.M3_CanSum.csproj", "{0C5EE81C-DECB-4A94-91BE-F546E23E4C4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.Extensions", "DynaPrograms.Extensions\DynaPrograms.Extensions.csproj", "{5DC1BB1D-448F-4BB8-A9F4-B3A60003043D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,10 @@ Global
 		{0C5EE81C-DECB-4A94-91BE-F546E23E4C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C5EE81C-DECB-4A94-91BE-F546E23E4C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C5EE81C-DECB-4A94-91BE-F546E23E4C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC1BB1D-448F-4BB8-A9F4-B3A60003043D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC1BB1D-448F-4BB8-A9F4-B3A60003043D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC1BB1D-448F-4BB8-A9F4-B3A60003043D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC1BB1D-448F-4BB8-A9F4-B3A60003043D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
