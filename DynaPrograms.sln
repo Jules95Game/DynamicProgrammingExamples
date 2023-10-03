@@ -20,6 +20,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.Extensions", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynaPrograms.M4_HowSum", "DynaPrograms.M4_HowSum\DynaPrograms.M4_HowSum.csproj", "{293F51DF-78D6-4AA4-8DCD-D7183CA70BA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynaPrograms.M5_BestSum", "DynaPrograms.M5_BestSum\DynaPrograms.M5_BestSum.csproj", "{DB89AD53-F503-41DA-98DA-AB19C7455129}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{293F51DF-78D6-4AA4-8DCD-D7183CA70BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{293F51DF-78D6-4AA4-8DCD-D7183CA70BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{293F51DF-78D6-4AA4-8DCD-D7183CA70BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB89AD53-F503-41DA-98DA-AB19C7455129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB89AD53-F503-41DA-98DA-AB19C7455129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB89AD53-F503-41DA-98DA-AB19C7455129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB89AD53-F503-41DA-98DA-AB19C7455129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{C1C8F0D0-A7CE-47C9-979C-C624C9A66836} = {DF287A04-F134-4D2B-876A-A6048E653571}
 		{0C5EE81C-DECB-4A94-91BE-F546E23E4C4C} = {DF287A04-F134-4D2B-876A-A6048E653571}
 		{293F51DF-78D6-4AA4-8DCD-D7183CA70BA2} = {DF287A04-F134-4D2B-876A-A6048E653571}
+		{DB89AD53-F503-41DA-98DA-AB19C7455129} = {DF287A04-F134-4D2B-876A-A6048E653571}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C72C235-D105-4AF0-9C9E-68E1429A889E}
